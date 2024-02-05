@@ -1,0 +1,202 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{color: rgb(18, 18, 229)}
+.header{
+    
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+.c-link{color: rgb(192, 88, 88)}
+.prof-link{background-color: gray; height: 25px; width: 25px; border-radius: 50%;}
+h2, a{color: white; text-decoration: none;}
+.after-header{
+    border: 0.3px solid whitesmoke;
+    margin-top: 5%;
+    display: flex;
+    margin-left: 70px;
+    margin-right: 70px;
+    height: 650px;
+}
+.section1{
+    border: 0.3px solid whitesmoke
+}
+.section1{
+    background: radial-gradient(rgb(6, 6, 57), rgb(2, 2, 24));
+    margin-right: 600px;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.part1{
+    margin-left: -500px;
+    margin-right: 400px;
+    margin-top: -70px;
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.358);
+}
+.part2, .part3, .part4{
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.358);
+}
+.random{height: 105px; width: 75px;}
+.part2{
+    margin-left: -260px;
+    margin-right: 100px;
+    margin-top: -175px;
+}
+.part3{
+    margin-left: -500px;
+    margin-right: 400px;
+    margin-top: -130px;
+}
+.part4{
+    margin-left: -260px;
+    margin-right: 100px;
+    margin-top: -175px;
+}
+.center-page{
+   height: 500px;
+    margin-top: 90px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border: 0.3px solid whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+}
+.image-text{
+    border: 1px solid whitesmoke;
+    width: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(rgb(52, 3, 3), rgb(20, 2, 2))
+}
+.next-text{
+    border: 1px solid whitesmoke;
+    width:580px;
+    padding: 20px;
+}
+.boxxes{
+    
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 20px;
+}
+.after-center{
+    
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.box{
+    
+    height: 150px;
+    width: 150px;
+    padding: 15px;
+}
+.partner{
+    border: 1px solid whitesmoke;
+    display: flex;margin-left: 70px;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+.nikron{
+    border: 1px solid whitesmoke;
+    height: 220px;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.near-end{
+height: 500px;
+margin-top: -1px;
+margin-left: 70px;
+margin-right: 70px;
+border: 0.3px solid whitesmoke;
+display: flex;
+justify-content: space-evenly;
+}
+.image1{
+border: 1px solid whitesmoke;
+width: 955px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+background: linear-gradient(rgb(56, 48, 4), rgb(35, 30, 3))
+}
+.next-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    padding: 18px;
+    border: 1px solid whitesmoke;
+    width:580px;
+    padding: 20px;
+}
+button{
+    border-style: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    background-color: rgb(192, 88, 88);
+}
+.footer{
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-link, .sub{
+    display: flex;
+    flex-direction: column;
+}
+.fix{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+.copy{
+    text-align: center;
+}
